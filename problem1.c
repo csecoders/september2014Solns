@@ -11,7 +11,7 @@ int main()
     gets(inputString);
     //Iterate over each character in the input string and increase
     //its corresponding occurance array element by 1.
-    for (i = 0; inputString[i] != ”; i++)
+    for (i = 0; inputString[i] != '\0'; i++)
     {
         alphabets[(int)(inputString[i] – ‘a’)]++;
     }
