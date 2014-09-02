@@ -7,13 +7,4 @@ Problem 1.
 
 Given a string of alphabets, determine whether a palindrome can be formed by rearranging the letters of the string.
 
-For example, the string ‘abaab’ can be rearranged as ‘ababa’ to form a palindrome whereas the string ‘acccaa’ cannot be rearranged to form a palindome,
-
-The program’s logic as explained in the club meeting is as follows:
-
-1) Find the number of occurrences of each character in the word.
-
-2) If there are more than two characters with an odd number of occurrences, a palindrome cannot be formed by shuffling the elements.
-
-3) If there are no elements with an odd number of occurrence or if there is only one element with an odd number of occurrence, then a palindrome can be formed.
-
+For example, the string ‘abaab’ can be rearranged as ‘ababa’ to form a palindrome whereas the string ‘acccaa’ cannot be rearranged to form a palindome.
