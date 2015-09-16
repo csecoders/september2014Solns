@@ -8,7 +8,11 @@ int main()
     for( i = 0; inputString[i] != '\0'; i++)
     {
         if( inputString[i] == 32 )
+        
         {
+            while(inputString[i+1]== 32)
+                i++;
+                
             printf("%c", inputString[i+1]);
         }
     }
